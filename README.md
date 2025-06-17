@@ -1,4 +1,37 @@
 
+# Physical Design for Nanometer ICs – Programming Assignments
+
+**Course**: Physical Design for Nanometer ICs, Spring 2025  
+**Department**: Electrical Engineering, National Taiwan University  
+**Instructor**: Prof. Yao-Wen Chang  
+**Student**: Yi-En Wu
+
+This repository contains the programming assignments and corresponding reports developed as part of the Physical Design for Nanometer ICs course. Each assignment focuses on solving a core problem in the physical design flow of integrated circuits using C++ on a Linux platform.
+
+---
+
+## Repository Structure
+
+.
+├── pa1/ # Programming Assignment 1 – 2-Way Partitioning
+│ ├── bin/ # Compiled binary: fm
+│ ├── src/ # Source files (.cpp/.h)
+│ ├── Makefile
+│ ├── readme.txt
+│ └── report.pdf
+├── pa2/ # Programming Assignment 2 – Fixed-Outline Floorplanning
+│ ├── bin/ # Compiled binary: fp
+│ ├── src/ # Source files
+│ ├── Makefile
+│ ├── readme.txt
+│ └── report.pdf
+├── pa3/ # Programming Assignment 3 – Global Placement
+│ ├── bin/ # Compiled binary: place
+│ ├── src/ # Source files
+│ ├── Makefile
+│ ├── readme.txt
+│ └── report.pdf
+
 ## Assignments Overview
 
 ### PA1 – 2-Way Fiduccia–Mattheyses Circuit Partitioning
@@ -22,22 +55,3 @@
 - **Report**: See `pa3/report.pdf`
 
 ---
-
-## Build and Run Instructions
-
-Each assignment directory includes a `Makefile`. To compile and run:
-
-```bash
-cd pa1     # or cd pa2, cd pa3
-make       # Compile the program
-
-# Example usage:
-
-# PA1
-./fm input_0.dat output_0.dat
-
-# PA2
-./fp 0.5 ami33.block ami33.nets output.rpt
-
-# PA3
-./place -aux ibm01-cu85.aux
