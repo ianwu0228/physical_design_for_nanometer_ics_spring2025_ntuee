@@ -10,28 +10,6 @@ This repository contains the programming assignments and corresponding reports d
 
 ---
 
-## Repository Structure
-
-.
-├── pa1/ # Programming Assignment 1 – 2-Way Partitioning
-│ ├── bin/ # Compiled binary: fm
-│ ├── src/ # Source files (.cpp/.h)
-│ ├── Makefile
-│ ├── readme.txt
-│ └── report.pdf
-├── pa2/ # Programming Assignment 2 – Fixed-Outline Floorplanning
-│ ├── bin/ # Compiled binary: fp
-│ ├── src/ # Source files
-│ ├── Makefile
-│ ├── readme.txt
-│ └── report.pdf
-├── pa3/ # Programming Assignment 3 – Global Placement
-│ ├── bin/ # Compiled binary: place
-│ ├── src/ # Source files
-│ ├── Makefile
-│ ├── readme.txt
-│ └── report.pdf
-
 ## Assignments Overview
 
 ### PA1 – 2-Way Fiduccia–Mattheyses Circuit Partitioning
